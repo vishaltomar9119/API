@@ -20,6 +20,7 @@ function validatePassword(password) {
 
 Router.get('/registration', async(req, res)=>{
     try{
+        const { name, address, email, phone, password, photo } = req.body;
         if (!name || !address || !email || !phone || !password || !photo) {
             return res.status(400).json({ success: false, message: 'All fields are required' });
           }
@@ -45,8 +46,8 @@ Router.get('/registration', async(req, res)=>{
         var patient = nosql.model('Patient');
         var data  =  await patient.insertMany({ name:name , email:email ,password:hashedPassword ,address:address, phone:phone , photo:photo});
         if(data)
-        res.send({status:true ,data:data});
-        else res.send({status:false , data:[], msg:'data not insert'});
+         res.status(200).send({status:true ,data:data});
+         else res.status(500).send({status:false , data:[], msg:'data not insert'});
 
     }catch(err){
         res.send(err);
@@ -58,6 +59,8 @@ Router.get('/registration', async(req, res)=>{
 Router.get('/get-information', async(req, res)=>{
   try{
     const hospitalId = "1";
+    // const hospitalId = req.query.hospitalId;
+    
     var hospital = nosql.model('Hospital')
     var data  = await hospital.aggregate([
   {
@@ -91,7 +94,8 @@ Router.get('/get-information', async(req, res)=>{
     }
   }
 ]);
-res.send(data)
+ res.status(200).send({status:true ,data:data});
+ else res.status(500).send({status:false , data:[], msg:'data not found'});
 
 
   }catch(err){
