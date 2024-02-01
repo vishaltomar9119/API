@@ -19,7 +19,7 @@
     "$oid": "65b9338257adaadfd72d1148"
   },
   "name": "Dr. Robert",
-  "hospitalId": "3",
+  "hospitalId": "1",
   "psychiatristID": "4"
 },
 {
@@ -27,7 +27,7 @@
     "$oid": "65b9338257adaadfd72d1149"
   },
   "name": "Dr. Emily",
-  "hospitalId": "4",
+  "hospitalId": "1",
   "psychiatristID": "4"
 },
 {
@@ -35,6 +35,86 @@
     "$oid": "65b9338257adaadfd72d114a"
   },
   "name": "Dr. James",
-  "hospitalId": "5",
+  "hospitalId": "1",
+  "psychiatristID": "5"
+},
+{
+  "_id": {
+    "$oid": "65bb89ecba036561f635915a"
+  },
+  "name": "psychiatrists A",
+  "hospitalId": "2",
+  "psychiatristID": "1"
+},
+{
+  "_id": {
+    "$oid": "65bb89ecba036561f635915b"
+  },
+  "name": "psychiatrists B",
+  "hospitalId": "2",
+  "psychiatristID": "5"
+},
+{
+  "_id": {
+    "$oid": "65bb89ecba036561f635915c"
+  },
+  "name": "psychiatrists C",
+  "hospitalId": "2",
+  "psychiatristID": "6"
+},
+{
+  "_id": {
+    "$oid": "65bb89ecba036561f635915d"
+  },
+  "name": "psychiatrists D",
+  "hospitalId": "2",
+  "psychiatristID": "2"
+},
+{
+  "_id": {
+    "$oid": "65bb89ecba036561f635915e"
+  },
+  "name": "psychiatrists E",
+  "hospitalId": "2",
+  "psychiatristID": "3"
+},
+{
+  "_id": {
+    "$oid": "65bb89ecba036561f635915f"
+  },
+  "name": "psychiatrists F",
+  "hospitalId": "2",
+  "psychiatristID": "3"
+},
+{
+  "_id": {
+    "$oid": "65bb89ecba036561f6359160"
+  },
+  "name": "psychiatrists G",
+  "hospitalId": "3",
+  "psychiatristID": "4"
+},
+{
+  "_id": {
+    "$oid": "65bb89ecba036561f6359161"
+  },
+  "name": "psychiatrists H",
+  "hospitalId": "3",
+  "psychiatristID": "4"
+},
+{
+  "_id": {
+    "$oid": "65bb89ecba036561f6359162"
+  },
+  "name": "psychiatrists I",
+  "hospitalId": "3",
+  "psychiatristID": "5"
+},
+{
+  "_id": {
+    "$oid": "65bb89ecba036561f6359163"
+  },
+  "name": "psychiatristsPatient J",
+  "hospitalId": "3",
   "psychiatristID": "5"
 }]
