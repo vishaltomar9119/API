@@ -1,6 +1,6 @@
-# Express MongoDB Boilerplate
 
-This is a basic boilerplate for a Node.js application using Express for the server, MongoDB for the database, and bcrypt for password hashing.
+
+This is a basic  for a Node.js application using Express for the server, MongoDB for the database, and bcrypt for password hashing.
 
 ## Table of Contents
 
