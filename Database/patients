@@ -1,1 +1,81 @@
-
+[{
+  "_id": {
+    "$oid": "65b9377257adaadfd72d1151"
+  },
+  "name": "lalit",
+  "psychiatristId": "1",
+  "address": "Sector 1, Noida",
+  "phone": 1234567890,
+  "email": "patient1@gmail.com",
+  "password": "securepassword123",
+  "photo": ""
+},
+{
+  "_id": {
+    "$oid": "65b9377257adaadfd72d1152"
+  },
+  "name": "rahul",
+  "psychiatristId": "1",
+  "address": "Sector 2, Noida",
+  "phone": {
+    "$numberLong": "9876543210"
+  },
+  "email": "patient2@gmail.com",
+  "password": "strongpassword456",
+  "photo": ""
+},
+{
+  "_id": {
+    "$oid": "65b9377257adaadfd72d1153"
+  },
+  "name": "saurav",
+  "psychiatristId": "3",
+  "address": "Sector 3, Noida",
+  "phone": {
+    "$numberLong": "5678901234"
+  },
+  "email": "patient3@gmail.com",
+  "password": "password789",
+  "photo": ""
+},
+{
+  "_id": {
+    "$oid": "65b9377257adaadfd72d1154"
+  },
+  "name": "udit",
+  "psychiatristId": "4",
+  "address": "Sector 4, Noida",
+  "phone": {
+    "$numberLong": "3456789012"
+  },
+  "email": "patient4@gmail.com",
+  "password": "securepass432",
+  "photo": ""
+},
+{
+  "_id": {
+    "$oid": "65b9377257adaadfd72d1155"
+  },
+  "name": "hansraj",
+  "psychiatristId": "5",
+  "address": "Sector 5, Noida",
+  "phone": {
+    "$numberLong": "6543210987"
+  },
+  "email": "patient5@gmail.com",
+  "password": "pass12345",
+  "photo": ""
+},
+{
+  "_id": {
+    "$oid": "65ba8775745fbb390a8097bf"
+  },
+  "name": "jggbh",
+  "psychiatristId": "2",
+  "address": "jhgfb",
+  "phone": 57656456,
+  "email": "hgheu",
+  "password": "jsggvb",
+  "photo": null,
+  "__v": 0
+}]
