@@ -41,9 +41,9 @@ Bcrypt: Library for hashing passwords.
 
 ### API URL 
 
--Postman hits
--http://localhost:3000/registration
--http://localhost:3000/get-information?hospitalId=1
+- Postman hits
+- http://localhost:3000/registration
+- http://localhost:3000/get-information?hospitalId=1
 
 ### Installation
 
