@@ -39,6 +39,12 @@ Bcrypt: Library for hashing passwords.
 - Node.js and npm installed on your machine.
 - MongoDB installed and running on your local machine.
 
+### API URL 
+
+Postman hits
+http://localhost:3000/registration
+http://localhost:3000/get-information?hospitalId=1
+
 ### Installation
 
 1. Clone the repository:
