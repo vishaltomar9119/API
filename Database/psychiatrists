@@ -1,1 +1,40 @@
-
+[{
+  "_id": {
+    "$oid": "65b9338257adaadfd72d1146"
+  },
+  "name": "Dr. Akassh",
+  "hospitalId": "1",
+  "psychiatristID": "1"
+},
+{
+  "_id": {
+    "$oid": "65b9338257adaadfd72d1147"
+  },
+  "name": "Dr. Sarah",
+  "hospitalId": "1",
+  "psychiatristID": "2"
+},
+{
+  "_id": {
+    "$oid": "65b9338257adaadfd72d1148"
+  },
+  "name": "Dr. Robert",
+  "hospitalId": "3",
+  "psychiatristID": "4"
+},
+{
+  "_id": {
+    "$oid": "65b9338257adaadfd72d1149"
+  },
+  "name": "Dr. Emily",
+  "hospitalId": "4",
+  "psychiatristID": "4"
+},
+{
+  "_id": {
+    "$oid": "65b9338257adaadfd72d114a"
+  },
+  "name": "Dr. James",
+  "hospitalId": "5",
+  "psychiatristID": "5"
+}]
